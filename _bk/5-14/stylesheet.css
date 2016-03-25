@@ -1,0 +1,57 @@
+body {
+    background-color: #aed5fc;
+    text-align: center;
+}
+a {
+    text-decoration: none; 
+    font-weight: bold;
+}
+h1 {
+    font-size: 4em;
+    color: coral;
+    font-family: sans-serif;
+    clear: both;
+}
+.button {
+    width: 140px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 5px;
+    text-align:center;
+    font-size: 2em;
+}
+/*
+.button a {
+    vertical-align: middle;
+}
+*/
+.donate {
+    background-color:#21f61a;
+    border: 2px solid grey;  
+    float: right;
+}
+.admin {
+    background-color:black;
+    float: left;
+}
+.admin a {
+    color:white; 
+}
+.donate a { 
+    color:crimson; 
+}
+#campaign {
+    font-size: 5em;
+}
+#volunteer-form {
+    border: 3px solid gray;
+    width: 20%;
+    margin:auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+table {
+    margin: auto;   
+}
+

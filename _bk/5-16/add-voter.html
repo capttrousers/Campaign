@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="stylesheet.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Admin</h1>
+    </header>
+    <section>
+        <h3>Add Voter</h3>
+        <p>
+            This is where you will enter and edit voter information.
+        </p>
+        <form action="." method="post" class="dataform">
+            <input type="hidden" name="action" value="add-voter">
+            
+            <label>First Name</label>
+            <input type="text" name="first_name">
+            <br>
+            <label>Last Name</label>
+            <input type="text" name="last_name">
+            <br>
+            <label>Phone Number</label>
+            <input type="text" name="phone">
+            <br>
+            <label>Email Address</label>
+            <input type="text" name="email">
+            <br>
+            <br>
+            <select name="registered">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Add Voter" style="border-radius:3px;">
+        </form>
+        <br>
+        <a href="voter-list.php">List Voters =></a>
+    </section>
+    <footer>
+        <a href="campaign.html">Home</a>
+        <h4>This Site, LLC -- Copyright 2015</h4>
+    </footer>
+</body>
+</html>

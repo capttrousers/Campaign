@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="stylesheet.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Admin</h1>
+    </header>        
+    <section>
+        <h3>Add Donation</h3>
+        <p>
+            This is where you will add a voter's donation.
+        </p>
+        <form action="." method="post" class="dataform">
+            <input type="hidden" name="action" value="add-donation">
+            
+            <select name="registered">
+                <option value="VISA">Visa</option>
+                <option value="AMEX">American Express</option>
+                <option value="MC">MasterCard</option>
+                <option value="DISC">Discover</option>
+                <option value="CASH">Cash</option>
+                <option value="CHECK">Check</option>
+                <option value="PAYPAL">PayPal</option>
+            </select>
+            <br>
+            <label>Credit Card Number</label>
+            <input type="text">
+            <br>
+            <label>Name on Card</label>
+            <input type="text">
+            <br>
+            <label>Expiration Date (format: MMYY)</label>
+            <input type="text">
+            <br>
+            <label>Billing ZIP Code</label>
+            <input type="text">
+            <br>
+            <label>Donation Amount</label>
+            <input type="text">
+            <br>
+            <input type="submit" value="Donate!">
+        </form>
+        <br>
+        <a href="list-donations.html">List Donations =></a>
+    </section>
+    <footer>
+        <a href="campaign.html">Home</a>
+        <h4>This Site, LLC -- Copyright 2015</h4>
+    </footer>
+</body>
+</html>

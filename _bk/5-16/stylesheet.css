@@ -1,0 +1,106 @@
+html, body {
+    margin: 0px;
+    min-height: 100%;
+    height: 100%;
+}
+
+html {
+    /*
+    position: relative;
+    */
+}
+body {
+    /* 
+    #aed5fc
+    #8BCAEF
+    */
+    
+}
+#test {
+    width: 20px;
+    height: 2000px;
+    background-color: red;
+}
+header {
+    background-color: #4F5E81;  
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 10000;
+    height: 141px;
+    box-shadow: 0px 5px 1em gray;
+}
+section {
+    background-color: #F7DFAD;
+    position: relative;
+    text-align: center;
+    margin: 0px 25% -60px;
+    min-height: calc(100% - 201px);
+    padding: 141px 5px 60px;
+}
+footer {
+    position: relative;
+    bottom: 0px;
+    height: 60px;
+    background-color: #4F5E81;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px -2px 1em gray;
+}
+header h1 {
+    margin: 0 auto 0;
+}
+.button {
+    width: 140px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 5px;
+    text-align:center;
+    font-size: 2em;
+    margin-top: 5px;
+    border: 2px solid grey;
+    background-color: #8BCAEF;
+}
+.donate {
+    /*background-color:#21f61a;*/
+    float: right;
+    margin-right: 5px;
+}
+.admin {
+    float: left;
+    margin-left: 5px;
+}
+#campaign {
+    font-size: 5em;
+}
+.dataform {
+    border: 3px solid gray;
+    width: 20%;
+    margin:auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+table {
+    margin: auto;   
+}
+a {
+    text-decoration: none; 
+    font-weight: bold;
+    color: black;
+}
+h1 {
+    font-size: 4em;
+    color: #E4A16B;
+    font-family: sans-serif;
+    clear: both;
+    text-align: center;
+}
+footer h4 {
+    margin-bottom: 0;   
+}
+/*
+.button a {
+    vertical-align: middle;
+}
+*/
